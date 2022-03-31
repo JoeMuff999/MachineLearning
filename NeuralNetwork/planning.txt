@@ -1,0 +1,19 @@
+what is a neural network?
+
+a network of nodes <- graph structure
+the nodes need to be able to communicate with each other -> send each other scalar values
+the nodes need to be able to transform the values they are given -> plug in a function
+
+Nodes:
+    output value
+    function
+    neighbors
+    weighted edges
+        
+
+in a fully connected network, each layer needs to compute its output value before the next layer can begin computing
+
+how will the neurons be stored?
+    - a list per layer
+
+each node is responsible for sending the weighted output to each node in the next layer it is connected to
